@@ -256,7 +256,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: false
+  useLogo: true
 
   # Where is the logo located, if one is
   # present at all?
@@ -266,7 +266,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: logo.png
+  logo: logo.svg
 
   # This is the description that is shown
   # on the footer and meta tags.

@@ -10,9 +10,12 @@ section: issue
 
 *Update* - This incident has been resolved.
 
-The QueryService updater is currently not processing any updates as it's unable to process the topmost item in the queue.
+__Description__ The QueryService updater is currently not processing any updates as it's unable to process the topmost item in the queue.
 This item makes the updater stall with maxed out CPU, preventing any progress from happeing.
-All users that use the QueryService will potentially see outdated data.
 
-More information can be found in [T361551](https://phabricator.wikimedia.org/T361551).
+__Expected Severity__ High for QueryService users
+
+__Impact__ All wikis
+
+__Links__ More information can be found in [T361551](https://phabricator.wikimedia.org/T361551).
 

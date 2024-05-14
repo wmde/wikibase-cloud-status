@@ -10,6 +10,10 @@ section: issue
 
 *Update* - This incident has been resolved.
 
-We noticed very high spending on Prometheus metric ingestion, such that it's basically approaching our compute spend.
-More information can be found in [T356049](https://phabricator.wikimedia.org/T356049).
-This isssue has no user-facing impact.
+__Description__ We discovered large spending on promethus; such that it's basically approaching our compute spend
+
+__Expected Severity__ No impact to users; does hit our budget
+
+__Impact__ No user impact
+
+__Links__ More information can be found in [T356049](https://phabricator.wikimedia.org/T356049).

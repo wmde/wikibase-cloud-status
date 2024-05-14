@@ -10,7 +10,10 @@ section: issue
 
 *Update* - This incident has been resolved.
 
-It seems the default Laravel queue stopped processing items at 2024-02-12 01:54:38 due to a hanging network connection when trying to create Kubernetes jobs.
-Expected Severity: All users are affected, creation of new wikis is severely broken, existing wikis are missing Queryservice data et. al.
+__Description__ It seems the default Laravel queue stopped processing items at 2024-02-12 01:54:38 due to a hanging network connection when trying to create Kubernetes jobs
 
-More information can be found in [T357426](https://phabricator.wikimedia.org/T357426).
+__Expected Severity__ All users affected, creation of new wikis severely broken, existing wikis missing queryservice data et. al.
+
+__Impact__ All wikis
+
+__Links__ More information can be found in [T357426](https://phabricator.wikimedia.org/T357426).
