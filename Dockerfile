@@ -1,3 +1,3 @@
 FROM hugomods/hugo:0.124.1
 
-RUN git config --global --add safe.directory /home/root/code
+RUN git config --global --add safe.directory /code
