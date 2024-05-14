@@ -1,33 +1,23 @@
-# cState Site v5.5
+# status-page
 
-This is the default cState status page website directory/folder.
+This repository contains the source code for the wikibase.cloud status page.
 
-* Example site repository link (you are here): https://github.com/cstate/example
-* Main cState source code repository: https://github.com/cstate/cstate
+## Deployment
 
-## Are you updating? Use these commands
+The status page is deployed to GitHub pages and will be built on each push to the `main` branch.
 
-Download your site with all the directories. `git clone --recursive <your repo link goes here>`
+## Local development
 
-Update the cState theme submodule. `git submodule foreach git pull origin master`
+To develop the site locally, use the existing [`docker compose`](https://docs.docker.com/compose/) setup.
+Running
 
-In the parent directory, type `hugo serve`. Check to see if everything is working.
+```
+docker compose up
+```
 
-Then do `git add -A; git commit -m "Update cState"; git push origin <branch, probably main or master>`. Your status page is now updated and uploaded.
+which will start a live-reloading server on <http://localhost:1313>.
 
+## Licenses
 
-## For maintainers (probably not for you)
-
-Maintainers need to update both cstate/cstate and cstate/example for each new version.
-
-Download this repo with all the directories. `git clone --recursive -b master https://github.com/cstate/example.git`
-
-Add your changes from cstate/cstate's exampleSite folder.
-
-Update the cState theme submodule. `git submodule foreach git pull origin master`
-
-Then push `git add -A; git commit -m "Update cState vX.X.X"; git push origin master`.
-
-## License
-
-MIT © Mantas Vilčinskas
+All source code in this repository is licensed under the [BSD-3.0 License](./LICENSE).
+Page content is licensed as [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

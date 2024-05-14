@@ -1,0 +1,10 @@
+services:
+  hugo:
+    build:
+      context: '.'
+    volumes:
+      - .:/home/root/code
+    working_dir: /home/root/code
+    command: hugo server --bind=0.0.0.0
+    ports:
+      - 1313:1313
