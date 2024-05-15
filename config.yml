@@ -119,6 +119,7 @@ enableGitInfo: true
 ############################################################
 
 params:
+  enableCustomHTML: true
   # Before setting up your systems, you need
   # to first define at least one category.
   #
@@ -188,7 +189,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  useRelativeTime: true
+  useRelativeTime: false
  
   # If enabled, doesn't show seconds on relative times.
   #
@@ -249,7 +250,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableDarkMode: false
+  disableDarkMode: true
 
   # Should we show the logo or the title
   # of the status page?
