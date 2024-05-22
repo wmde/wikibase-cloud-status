@@ -2,6 +2,12 @@
 
 This repository contains the source code for the wikibase.cloud status page.
 
+## Adding an incident
+In the event of an incident, in addition to reporting it in the incidents mattermost channel you should add and incident here.
+This is done by adding a markdown file to [the issues folder](/content/issues). You can follow the example of other incidents
+to complete the template.
+Unlike our normal code repositories it is acceptable to self-merge PRs in this repo.
+
 ## Deployment
 
 The status page is deployed to GitHub pages and will be built on each push to the `main` branch.
