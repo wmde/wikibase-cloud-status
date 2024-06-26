@@ -1,6 +1,6 @@
 ---
 title: Instability of Mediawiki Web and Platform Nginx
-date: 2024-06-23 04:0:00
+date: 2024-06-23 04:00:00
 resolved: false
 resolvedWhen:
 # Possible severity levels: down, disrupted, notice
