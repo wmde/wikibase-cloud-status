@@ -2,7 +2,7 @@
 title: Possible DB downtime
 date: 2024-08-28 14:52:00
 resolved: true
-resolvedWhen: 2024-08-28 14:16:00
+resolvedWhen: 2024-08-28 15:16:00
 # Possible severity levels: down, disrupted, notice
 severity: distrupted
 section: issue
