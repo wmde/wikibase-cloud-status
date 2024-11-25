@@ -1,7 +1,7 @@
 ---
 title: "Maintenance Window"
 date: 2024-11-25T10:04:00Z
-resolved: false
+resolved: true
 pin: true
 section: issue
 ---
