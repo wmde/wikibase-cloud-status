@@ -37,7 +37,6 @@
 
     {{ $t := (time .Params.ResolvedWhen) }}
     {{ $timeDiff := (sub $t.Unix .Date.Unix) }}
-    {{ $diffInMin := (div $timeDiff 60) }}
 
     <!-- Marker -->
     {{ if lt $timeDiff 60 }}
@@ -48,11 +47,20 @@
       <div class="ok">
         {{ T "resolvedAfter" }}
 
-        {{ $secsForCalc := (mod $timeDiff 60) }}
+        {{ $days := (div $timeDiff 86400) }} <!-- Calculate days -->
+        {{ $hours := (div (mod $timeDiff 86400) 3600) }} <!-- Calculate remaining hours -->
+        {{ $minutes := (div (mod (mod $timeDiff 86400) 3600) 60) }} <!-- Calculate remaining minutes -->
 
-        {{ div (sub $timeDiff $secsForCalc) 60 }}m
+        {{ if gt $days 0 }}
+          {{ $days }} d
+        {{ end }}
+        {{ if or (gt $days 0) (gt $hours 0) }}
+          {{ $hours }} h
+        {{ end }}
+        {{ $minutes }} m
+
         {{ if eq .Params.severity "down" }}
-        <!-- {{ $secsForCalc }}s --> {{ T "ofDowntime" }}
+        {{ T "ofDowntime" }}
         {{ end }}
       </div>
     {{ end }}
