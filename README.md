@@ -12,6 +12,20 @@ Unlike our normal code repositories it is acceptable to self-merge PRs in this r
 
 The status page is deployed to GitHub pages and will be built on each push to the `main` branch.
 
+### Deploying a preview for review
+You can use a fork of this repository to deploy any branch as a preview for review via GitHub Pages.
+
+1. Fork this repository: https://github.com/wmde/wikibase-cloud-status/fork
+    - De-select `Copy the main branch only` (otherwise you have to sync your branch after forking)
+3. Enable GitHub Pages
+    - `Settings` -> `Pages` and select `GitHub Actions` as the source
+4. Adjust allowed branches for Pages
+    - `Settings` -> `Environments` -> `github-pages` and edit the allowed branches from `main` to `*`
+5. Run workflow `Deploy Hugo site to Pages`
+    - `Actions` -> agree to enable them -> workflow `Deploy Hugo site to Pages` -> `Run workflow` with the branch you want
+
+The setup is only needed once, you can keep the fork and in case you need to do use this again you just need to sync the branch of your choice and repeat step 5. 
+
 ## Local development
 
 __Important__: The `cstate` theme is distributed as a git submodule contained in this repository, and is not pulled by default.
