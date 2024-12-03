@@ -52,12 +52,12 @@
         {{ $minutes := (div (mod (mod $timeDiff 86400) 3600) 60) }} <!-- Calculate remaining minutes -->
 
         {{ if gt $days 0 }}
-          {{ $days }} d
+          {{ $days }}d
         {{ end }}
         {{ if or (gt $days 0) (gt $hours 0) }}
-          {{ $hours }} h
+          {{ $hours }}h
         {{ end }}
-        {{ $minutes }} m
+        {{ $minutes }}m
 
         {{ if eq .Params.severity "down" }}
         {{ T "ofDowntime" }}
