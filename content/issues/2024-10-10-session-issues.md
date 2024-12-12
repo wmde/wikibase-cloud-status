@@ -1,7 +1,8 @@
 ---
 title: Deteriorating handling of sessions
 date: 2024-10-10
-resolved: false
+resolved: true
+resolvedWhen: 2024-11-29 23:59:59
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
