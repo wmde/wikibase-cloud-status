@@ -1,8 +1,8 @@
 ---
 title: Elasticsearch Down
 date: 2025-06-23 02:50:00
-resolved: false
-# resolvedWhen: 2025-04-02 11:38:00
+resolved: true
+resolvedWhen: 2025-06-23 10:10:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
