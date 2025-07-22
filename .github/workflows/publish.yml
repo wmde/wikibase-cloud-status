@@ -6,10 +6,6 @@ on:
   push:
     branches: ["main"]
 
-  # Runs also on a schedule to update "Last updated at" statements etc.
-  schedule:
-    - cron: "*/15 * * * *"
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
