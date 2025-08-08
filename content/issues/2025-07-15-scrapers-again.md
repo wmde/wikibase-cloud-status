@@ -18,3 +18,5 @@ __Links__ More information can be found in [T399439](https://phabricator.wikimed
 __Update__ Things seems to be better but we're still seeing occasional downtime.
 
 __Update2__ Things have improved again since Friday (2025-07-25) when we introduced even more targeted and aggressive rate limiting; we had no related alerts until Tuesday (2025-07-29). We are still seeing some impact on the DB which will occasionally be preventing users from editing and accessing the site occasionally but right now our monitoring suggests it's only happened 3 times this morning.
+
+__Update3__ We have seen an increased impact on the DB since our last update. We have deployed [Anubis](https://github.com/TecharoHQ/anubis) to see if that helps the situation. If users experience issues due to this change, please let us know.
