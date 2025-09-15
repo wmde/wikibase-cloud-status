@@ -2,7 +2,7 @@
 title: Site Intermittently down
 date: 2025-07-15 12:00:00
 resolved: true
-# resolvedWhen: 2025-07-25 15:00:00
+resolvedWhen: 2025-09-15 19:37:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
