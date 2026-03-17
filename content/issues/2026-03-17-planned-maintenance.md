@@ -1,8 +1,8 @@
 ---
 title: Planned Maintenance
 date: 2026-03-17 14:52:00
-resolved: false
-# resolvedWhen: 2024-08-28 15:16:00
+resolved: true
+resolvedWhen: 2026-03-17 15:51:00
 # Possible severity levels: down, disrupted, notice
 severity: distrupted
 section: issue
