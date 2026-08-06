@@ -5,6 +5,8 @@
 {{ $isDisrupted := where $active "Params.severity" "=" "disrupted" }}
 {{ $isDown := where $active "Params.severity" "=" "down" }}
 
+{{ if .Params.suppressed }}
+{{ else }}
 <a href="{{ .Permalink }}" class="issue no-underline">
   {{ if .Params.informational }}
 
@@ -115,3 +117,4 @@
 
   {{ end }}
 </a>
+{{ end }}
