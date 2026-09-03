@@ -1,7 +1,8 @@
 ---
 title: Quickstatements intermittent
 date: 2026-08-05 12:00:00
-resolved: false
+resolved: true
+resolvedWhen: 2026-08-14 09:00:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
