@@ -1,8 +1,8 @@
 ---
 title: Down for PHP update
 date: 2026-10-21 12:00:00
-#resolved: true
-#resolvedWhen: 2026-10-22 10:16:00
+resolved: false
+#resolvedWhen: 2026-08-14 09:00:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
