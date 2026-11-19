@@ -8,21 +8,12 @@ severity: disrupted
 section: issue
 ---
 
-__Description__ 
-
-Down while we apply the latest Critical PHP Security Release
-
-https://www.php.net/archive/2026.php#2026-11-18-1
-https://www.aikido.dev/blog/php-security-release-19-november-2026-cve-2026-115560
+__Description__ Down while we apply the latest Critical PHP Security Release https://www.php.net/archive/2026.php#2026-11-18-1
 
 __Expected Severity__ Disrupted
 
-__Impact__
-
-The whole platform is offline until we have investigated (and mitigated where necessary) the risk. This includes wikibase.cloud, Wikibases, and all tools.
+__Impact__ The whole platform is offline until we have investigated (and mitigated where necessary) the risk. This includes wikibase.cloud, Wikibases, and all tools.
 
 __Links__ More information will be available later on 2026-11-19
 
-__Update 2026-11-19 17:30:00 UTC__
-
-The [wikibase.cloud](https://www.wikibase.cloud) platform and Wikibases are now online. Quickstatements and Cradle will remain offline until they are updated on 2026-11-20.
+__Update 2026-11-19 17:30:00 UTC__ The [wikibase.cloud](https://www.wikibase.cloud) platform and Wikibases are now online. Quickstatements and Cradle will remain offline until they are updated on 2026-11-20.
