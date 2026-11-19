@@ -16,6 +16,8 @@ https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities
 
 __Expected Severity__ Medium
 
-__Impact__ The sites are offline until we have investigated (and mitigated where necessary) the risk
+__Impact__
+
+The whole platform is offline until we have investigated (and mitigated where necessary) the risk. This includes wikibase.cloud, Wikibases, and all tools.
 
 __Links__ More information will be available later on 2026-11-19
