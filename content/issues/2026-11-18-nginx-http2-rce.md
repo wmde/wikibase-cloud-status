@@ -1,8 +1,8 @@
 ---
-title: Down while investigating NGINX RCE vulnerabilities
+title: Investigating NGINX RCE vulnerabilities
 date: 2026-11-18 18:18:00
-resolved: false
-#resolvedWhen: <UNCOMMENT and update>
+resolved: true
+resolvedWhen: 2026-11-19 17:30:00
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
