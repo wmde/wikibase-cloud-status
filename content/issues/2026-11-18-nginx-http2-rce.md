@@ -1,5 +1,5 @@
 ---
-title: Down for PHP update
+title: Down while investigating NGINX RCE vulnerabilities
 date: 2026-11-18 18:18:00
 resolved: false
 #resolvedWhen: <UNCOMMENT and update>
